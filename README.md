@@ -15,6 +15,7 @@ This is our group project dividing in few exercices :
 A gemfile was created with all the gems to install and the ruby version to use.
 
 To get the different keys access and as Dotenv wasn't working well, please write to one of us on Slack to get the codes.
+
 *************************************
 To get access to the spreadsheet :
 - Gmail account created - > Go to Google Drive
@@ -22,6 +23,7 @@ Email : johndoethp@gmail.com
 MDP  : thehackingproject
 
 To make sure you have the right version of Ruby, type this in your terminal: rvm use 2.4.0
+
 ++NB:contact us by slack for the json file++
 *************************************
 
