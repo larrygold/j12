@@ -4,6 +4,7 @@ require 'open-uri'
 require 'google_drive'
 require 'json'
 require 'csv'
+require 'dotenv'
 
 
 #Ce fichier récupère les emails des mairies, et les stocke dans un Google Drive
@@ -58,7 +59,7 @@ list = get_all_the_urls_of_val_doise_townhalls
 
 session = GoogleDrive::Session.from_config("config.json")
 
-ws = session.spreadsheet_by_key("18t9vrvd1oxsje3o2farAidH8h7KIWqZosqizRY9LbJo").worksheets[0]
+ws = session.spreadsheet_by_key("1kr8po-K7GJ5q7-TLilqZzV9fYQq94X8EdDco6Oiac28").worksheets[0]
 
 
 ws[1, 1] = "Ville"
