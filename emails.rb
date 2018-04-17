@@ -9,7 +9,7 @@ def go_through_all_the_lines
   session = GoogleDrive::Session.from_config("config.json")
 
 #ajout du spreadsheet
-  ws = session.spreadsheet_by_key("1Z_MDkn11Lym6HJpoGzmLp1aeGJmso2V0dpOkFkAHBuc").worksheets[0]
+  ws = session.spreadsheet_by_key("1Z_MDkn11Lym6HJpoGzmLp1aeGJmso2V0dpOkFkAHBuc").worksheets[1]
 
 #boucle pour implementer les emails et les villes
     (2..ws.num_rows).each do |row|

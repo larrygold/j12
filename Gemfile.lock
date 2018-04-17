@@ -1,4 +1,4 @@
-GEM
+slGEM
   remote: https://rubygems.org/
   specs:
     addressable (2.5.2)
