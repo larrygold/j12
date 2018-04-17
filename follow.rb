@@ -6,6 +6,7 @@ require 'json'
 require 'csv'
 require 'twitter'
 
+#Ce programme follow les mairies sur Twitter
 
 def follow_users
   session = GoogleDrive::Session.from_config("config.json")
