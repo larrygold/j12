@@ -20,11 +20,11 @@ To get the different keys access and as Dotenv wasn't working well, please write
 To get access to the spreadsheet :
 - Gmail account created - > Go to Google Drive
 Email : johndoethp@gmail.com
-MDP  : thehackingproject
+MDP  : ASK US ON SLACK FOR THE PASSWORD
 
 To make sure you have the right version of Ruby, type this in your terminal: rvm use 2.4.0
 
-++NB:contact us by slack for the json file++
+++NB:contact us by slack for the json file AND the Google account password++
 *************************************
 
 The project has been made by the following people :
