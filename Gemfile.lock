@@ -112,5 +112,13 @@ DEPENDENCIES
   pry
   twitter
 
+<<<<<<< HEAD
 BUNDLED WITH
    1.11.2
+=======
+RUBY VERSION
+   ruby 2.4.4p296
+
+BUNDLED WITH
+   1.16.1
+>>>>>>> 2820990a4994e93f8ffec6126e9da4e48f068a9f
