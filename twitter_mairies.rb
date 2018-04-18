@@ -5,7 +5,7 @@ require 'google_drive'
 require 'json'
 require 'csv'
 
-#Ce programme créer une nouvelle colonne
+#Ce programme crée une nouvelle colonne
 
 def get_twitter_handle
   session = GoogleDrive::Session.from_config("config.json")

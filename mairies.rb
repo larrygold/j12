@@ -19,6 +19,7 @@ end
 
 
 
+#On récupère les emails de toutes les mairies d'un département à partir d'une page dont l'adresse est url_department, un paramètre de cette méthode
 
 def get_all_the_urls_of_all_townhalls(url_department)
 
@@ -63,6 +64,7 @@ end
 
 
 
+#On fait appel à la méthode get_all_the_urls_of_all_townhalls, avec la liste des URL des pages des départements, puis on enregistre la ville/email/département dans un Google Drive. Pensez bien à nous demander le fichier config.json sur Slack, car il n'est pas publié sur Github par sécurité.
 
 def drive
 
@@ -70,12 +72,8 @@ url_all_departments = ["http://www.annuaire-des-mairies.com/vendee.html", "http:
 
 session = GoogleDrive::Session.from_config("config.json")
 
-<<<<<<< HEAD
-ws = session.spreadsheet_by_key("1Z_MDkn11Lym6HJpoGzmLp1aeGJmso2V0dpOkFkAHBuc").worksheets[0]
-=======
-ws = session.spreadsheet_by_key("1kr8po-K7GJ5q7-TLilqZzV9fYQq94X8EdDco6Oiac28").worksheets[0]
 
->>>>>>> 25dfdab3da9544a8e640b1c16296ffbf948eb683
+ws = session.spreadsheet_by_key("1Z_MDkn11Lym6HJpoGzmLp1aeGJmso2V0dpOkFkAHBuc").worksheets[0]
 
 ws[1, 1] = "Ville"
 ws[1, 2] = "Email"
@@ -123,35 +121,6 @@ end
 
 end
 
-
-
-#
-# def json
-#
-# list = get_all_the_urls_of_val_doise_townhalls
-#
-# File.open("temp.json", "w") do |f|
-#   f.write(list.to_json)
-# end
-#
-# end
-#
-#
-#
-#
-# def csv
-#
-# list = get_all_the_urls_of_val_doise_townhalls
-#
-# CSV.open("test.csv", "wb") do |line|
-#
-# list.each do |hash|
-# line << hash.values
-#     end
-#
-#   end
-#
-# end
 
 
 
