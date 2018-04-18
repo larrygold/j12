@@ -1,4 +1,4 @@
-GEM
+slGEM
   remote: https://rubygems.org/
   specs:
     addressable (2.5.2)
@@ -117,7 +117,11 @@ BUNDLED WITH
    1.11.2
 =======
 RUBY VERSION
+<<<<<<< HEAD
+   ruby 2.4.0p0
+=======
    ruby 2.4.4p296
+>>>>>>> 91ed1796262f0f7871a9cefef5506ab216ce309d
 
 BUNDLED WITH
    1.16.1

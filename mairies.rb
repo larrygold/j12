@@ -4,6 +4,7 @@ require 'open-uri'
 require 'google_drive'
 require 'json'
 require 'csv'
+require 'dotenv'
 
 
 #Ce fichier récupère les emails des mairies, et les stocke dans un Google Drive
@@ -69,7 +70,12 @@ url_all_departments = ["http://www.annuaire-des-mairies.com/vendee.html", "http:
 
 session = GoogleDrive::Session.from_config("config.json")
 
+<<<<<<< HEAD
 ws = session.spreadsheet_by_key("1Z_MDkn11Lym6HJpoGzmLp1aeGJmso2V0dpOkFkAHBuc").worksheets[0]
+=======
+ws = session.spreadsheet_by_key("1kr8po-K7GJ5q7-TLilqZzV9fYQq94X8EdDco6Oiac28").worksheets[0]
+
+>>>>>>> 25dfdab3da9544a8e640b1c16296ffbf948eb683
 
 ws[1, 1] = "Ville"
 ws[1, 2] = "Email"
