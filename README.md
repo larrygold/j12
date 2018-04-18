@@ -19,8 +19,8 @@ To get the different keys access and as Dotenv wasn't working well, please write
 *************************************
 To get access to the spreadsheet :
 - Gmail account created - > Go to Google Drive
-Email : johndoethp@gmail.com
-MDP  : ASK US ON SLACK FOR THE PASSWORD
+- Email : johndoethp@gmail.com
+- MDP  : ASK US ON SLACK FOR THE PASSWORD
 
 To make sure you have the right version of Ruby, type this in your terminal: rvm use 2.4.0
 
